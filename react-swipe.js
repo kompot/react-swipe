@@ -52,7 +52,7 @@
 
     componentDidMount: function () {
       if (this.isMounted()) {
-        this.swipe = Swipe(ReactDOM.findDOMNode(this), this.props);
+        this.swipe = Swipe(ReactDOM.findDOMNode(this), objectAssign({}, this.props));
       }
     },
 
