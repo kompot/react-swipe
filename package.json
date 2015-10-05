@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^5.9.1",
-    "react": "0.13.x",
+    "react": "^0.14.0-rc1",
     "uglify-js": "^2.4.19"
   },
   "scripts": {
@@ -32,7 +32,7 @@
     "swipe-js-iso": ">=2.0.0"
   },
   "peerDependencies": {
-    "react": "0.13.x",
+    "react": "^0.14.0-rc1",
     "swipe-js-iso": ">=2.0.0"
   }
 }
